@@ -43,7 +43,10 @@ SPAIN
 
  <!--Segmento LAN interna: 10.0.0.0/24 Hosts Víctima, Atacante y servidor DNS-->
   <vm name="Victima" type="libvirt" subtype="kvm" os="linux">
-  	<filesystem type="cow">/usr/share/vnx/filesystems/rootfs_ubuntu-gui</filesystem>
+  	
+  	 <filesystem type="cow">/usr/share/vnx/filesystems/rootfs_ubuntu_gui</filesystem>
+  	
+  	<!--<filesystem type="cow">/usr/share/vnx/filesystems/rootfs_ubuntugui</filesystem> -->
     	<mem>512M</mem>
     	<video>vmvga</video>
     	<if id="1" net="LAN">
