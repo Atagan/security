@@ -13,16 +13,16 @@ def spoofRouter(macRouter, ipRouter, ipVictimToSpoof, ourMac):
 count = 1
  
 # Datos spoof victima
-ipVictim = "RELLENAR"
+ipVictim = "192.168.0.2"
 macVictim = getmacbyip(ipVictim)
-ipRouterToSpoof = "RELLENAR"
-ourMac = "RELLENAR"
+ipRouterToSpoof = "192.168.0.1"
+ourMac = "02:fd:00:00:01:01"
  
 # Datos spoof router
-ipRouter = "RELLENAR"
+ipRouter = "192.168.0.1"
 macRouter = getmacbyip(ipRouter)
-ipVictimToSpoof = "RELLENAR"
-ourMac = "RELLENAR"
+ipVictimToSpoof = "192.168.0.2"
+ourMac = "02:fd:00:00:01:01"
  
 
  
